@@ -1,3 +1,6 @@
+import random
+
+
 def user_list(**user_data):
     for key, value in user_data.items():
         print(f"{key} = {value}")
